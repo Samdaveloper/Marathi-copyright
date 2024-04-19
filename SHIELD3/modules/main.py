@@ -52,7 +52,7 @@ NYKAA = [
 
 start_txt = """<b> ❍ ʜɪɪ ʙᴀʙʏ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !\n━━━━━━━━━━━━━━━━━━━━━━\n\n❍ ɪ ᴀᴍ ɢʀᴏᴜᴘ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴄᴏᴘʏʀɪɢʜᴛ ʙᴏᴛ.\n\n❍ ɪ ʜᴀᴠᴇ ɢʀᴏᴜᴘ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ғᴇᴀᴛᴜʀᴇs.\n\n❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ʀ ᴏ ʏ - ᴇ ᴅ ɪ ᴛ x ࿐ </b>"""
 
-@app.on_message(filters.command("start"))
+@app.on_message(filters.command("marathi"))
 async def start(_, msg):
     buttons = [
         [ 
